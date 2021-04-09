@@ -2,6 +2,7 @@
     We have a bag whose capacity to carry weight is c.
     We have some elements with their value and their respective weights.
     We have to maximise the value of bag without violating it's weight c.
+    Each element can only be used once or none at all.
 */
 
 
