@@ -9,6 +9,8 @@
     . 
 */
 
+//Doubty
+
 public class Count_encodings {
     public static void main(String args[]) {
         String s = "1223";
