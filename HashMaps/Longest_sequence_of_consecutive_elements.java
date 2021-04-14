@@ -25,16 +25,23 @@ public class Longest_sequence_of_consecutive_elements {
             }
         }
         int max = 0;
-        for(int val : arr) {
+        int index = -1;
+
+        for(int j=0 ; j <arr.length; j++) {
+            int i = arr[j];
             int tmax = 1;
-            while( hm.containsKey(val+1) ){
-                val++;
+            while( hm.containsKey(i+1) ){
+                i++;
                 tmax++;
             }
-            if(tmax >max ){
+            if(tmax > max ){
                 max = tmax;
+                index = j; 
             }
         }
         System.out.println( "Longest Sequence of consecutive characters : "+  max);
+        for(int i=0; i<max ;i++ ){
+            System.out.print(arr[index]+i + "\t");
+        }
     }
 }
