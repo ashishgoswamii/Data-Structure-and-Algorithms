@@ -1,6 +1,3 @@
-public class NQueens {
-
-
 /*
 Given a size N x N chessboard. Print all solutions which place N number of queens safely.
 Queen can move in 6 directions(Find those out on your own).
@@ -8,6 +5,7 @@ Queen can move in 6 directions(Find those out on your own).
 
 */
 
+public class NQueens {
     public static void main(String args[]) {
 
         int n = 4;
